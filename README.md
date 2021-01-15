@@ -44,3 +44,21 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+## How has been created the project
+
+```
+npx create-react-app react-template-ts --template typescript
+npm install --save react-router react-router-dom connected-react-router
+npm install --save-dev @types/react-router-dom
+npm install --save redux react-redux redux-devtools @reduxjs/toolkit redux-devtools-extension redux-thunk
+npm install --save-dev @types/react-redux
+npm install --save node-sass@4.14.1
+```
+`node-sass@4.14.1` and `history@4.10.1` uses specific versions
+due to known issues on the current react version (at January of 2021)
+
+https://github.com/ReactTraining/history/issues/804
+
+https://stackoverflow.com/questions/64625050/error-node-sass-version-5-0-0-is-incompatible-with-4-0-0

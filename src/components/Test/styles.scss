@@ -1,0 +1,20 @@
+.layout {
+  width: 60%;
+  margin: auto;
+  div {
+   padding: 8px 0;
+    text-align: center;
+  }
+  .title {
+    font-weight: 800;
+    font-size: 56px;
+  }
+  .stats {
+    width: 60%;
+    margin: auto;
+    .stat {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
