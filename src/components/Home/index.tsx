@@ -24,6 +24,9 @@ export const Home = () => {
         <Link to="/test" className="test-button">
           <button>TEST</button>
         </Link>
+        <Link to="/exercises" className="test-button">
+          <button>EXERCISES</button>
+        </Link>
       </header>
     </div>
   );
